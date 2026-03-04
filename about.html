@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+                <div class="nav-logo">📦 Inventory Manager</div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Dashboard</a></li>
+                <li><a href="about.html" class="nav-link active">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <main class="profile-section">
+            <h1>About</h1>
+            
+            <div class="profile-card">
+                
+                <div class="profile-info">
+                    <div class="info-group">
+                        <label>Name:</label>
+                        <input 
+                            type="text" 
+                            id="userName" 
+                            value="Wei Ee Jolene Soh"
+                            class="profile-input"
+                            readonly
+                            aria-readonly="true"
+                        >
+                    </div>
+
+                    <div class="info-group">
+                        <label>Email:</label>
+                        <input 
+                            type="email" 
+                            id="userEmail" 
+                            value="wes1@sfu.ca"
+                            class="profile-input"
+                            readonly
+                            aria-readonly="true"
+                        >
+                    </div>
+
+                    <div class="info-group">
+                        <label>Company:</label>
+                        <input 
+                            type="text" 
+                            id="userCompany" 
+                            value="Simon Fraser University"
+                            class="profile-input"
+                            readonly
+                            aria-readonly="true"
+                        >
+                    </div>
+                </div>
+
+                
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
